@@ -23,7 +23,7 @@ warnings.filterwarnings('ignore')
 
 # Page configuration
 st.set_page_config(
-    page_title="AI Stock Price Predictor",
+    page_title="AI Stock Price Predictor Shivam Bhardwaj",
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -464,7 +464,7 @@ if st.sidebar.button("🚀 Predict Stock Price", type="primary"):
             st.markdown("---")
             st.markdown("""
             **⚠️ Important Disclaimer:**
-            This prediction is based on historical data and machine learning models. 
+            Don't use this solely. This prediction is based on historical data and machine learning models. 
             Stock prices are influenced by many factors including market sentiment, news, 
             economic conditions, and other unpredictable events. This tool should not be 
             used as the sole basis for investment decisions. Always consult with financial 
@@ -495,4 +495,4 @@ else:
 
 # Footer
 st.markdown("---")
-st.markdown("Built with ❤️ using Streamlit, scikit-learn, and yfinance")
+st.markdown("Built by Shivam Bhardwaj | tech stack - Streamlit, scikit-learn, and yfinance")
