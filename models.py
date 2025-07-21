@@ -56,7 +56,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title and description
-st.markdown('<h1 class="main-header">🤖 AI Stock Price Predictor</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">🤖 AI Stock Price Predictor by Shivam Bhardwaj</h1>', unsafe_allow_html=True)
 st.markdown("### Predict next-day stock prices using advanced machine learning models")
 
 # Sidebar for user inputs
@@ -496,3 +496,5 @@ else:
 # Footer
 st.markdown("---")
 st.markdown("Built by Shivam Bhardwaj | tech stack - Streamlit, scikit-learn, and yfinance")
+st.sidebar.markdown("💡 **Note:** For Indian stocks use `.NS` (NSE) or `.BO` (BSE) suffixes. Example: `TCS.NS`, `RELIANCE.BO`")
+
